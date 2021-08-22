@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Гайды",
+        "pages": [
+            {
+                "name": "Изменение версии Java",
+                "path": "guides/change-java"
+            },
+            {
+                "name": "Изменение версии сервера",
+                "path": "guides/change-version"
+            },
+            {
+                "name": "Настройка домена",
+                "path": "guides/configure-domain"
+            },
+            {
+                "name": "Настройка RCON",
+                "path": "guides/configure-rcon"
+            },
+            {
+                "name": "Настройка TCPShield",
+                "path": "guides/configure-tcpshield"
+            },
+            {
+                "name": "Использование планировщика задач",
+                "path": "guides/use-crontab"
+            },
+            {
+                "name": "Использование SFTP",
+                "path": "guides/use-sftp"
+            }
+        ]
+    },
+    {
+        "name": "Документы",
+        "pages": [
+            {
+                "name": "BugBounty",
+                "path": "docs/bug-bounty"
+            }
+        ]
+    },
+    {
+        "name": "Блог",
+        "pages": [
+            {
+                "name": "Выбор оптимальной конфигурации",
+                "path": "blog/server-resources"
+            }
+        ]
+    }
+]
