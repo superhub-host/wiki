@@ -4,31 +4,38 @@
         "pages": [
             {
                 "name": "Изменение версии Java",
-                "path": "guides/change-java"
+                "path": "guides/change-java",
+                "description": "Инструкция по изменению версии Java на сервере в панели."
             },
             {
                 "name": "Изменение версии сервера",
-                "path": "guides/change-version"
+                "path": "guides/change-version",
+                "description": "Инструкция по изменению версии Minecraft на сервере."
             },
             {
                 "name": "Настройка домена",
-                "path": "guides/configure-domain"
+                "path": "guides/configure-domain",
+                "description": "Для того чтобы ваш сервер Minecraft был доступен по доменному имени без порта, даже если порт отличается от стандартного 25565, необходимо создать SRV-запись в настройках DNS. В этой статье сказано, как это можно сделать."
             },
             {
                 "name": "Настройка RCON",
-                "path": "guides/configure-rcon"
+                "path": "guides/configure-rcon",
+                "description": "В этом гайде мы рассмотрим, как включить RCON на сервере, запущенном на нашем хостинге, а также настройку автоматической выдачи доната с помощью Trade MC."
             },
             {
                 "name": "Настройка TCPShield",
-                "path": "guides/configure-tcpshield"
+                "path": "guides/configure-tcpshield",
+                "description": "Инструкция по настройке TCPShield - бесплатной защиты от DDoS."
             },
             {
                 "name": "Использование планировщика задач",
-                "path": "guides/use-crontab"
+                "path": "guides/use-crontab",
+                "description": "В панели предусмотрено создание задач, которые будут автоматически выполняться с определённой периодичностью. Вы можете настроить выполнение заранее заданных команд в определённое время."
             },
             {
                 "name": "Использование SFTP",
-                "path": "guides/use-sftp"
+                "path": "guides/use-sftp",
+                "description": "Инструкция по использованию SFTP для доступа к файлам сервера."
             }
         ]
     },
@@ -37,7 +44,8 @@
         "pages": [
             {
                 "name": "BugBounty",
-                "path": "docs/bug-bounty"
+                "path": "docs/bug-bounty",
+                "description": "Про то, как отправить баг в нашу BugBounty систему. Отправьте ошибку, с которой вы столкнулись на сайте хостинга Minecraft серверов superhub.host."
             }
         ]
     },
@@ -46,7 +54,8 @@
         "pages": [
             {
                 "name": "Выбор оптимальной конфигурации",
-                "path": "blog/server-resources"
+                "path": "blog/server-resources",
+                "description": "Статья про то, сколько ресурсов следует приобретать на хостинге для нормальной работы Minecraft сервера."
             }
         ]
     }
