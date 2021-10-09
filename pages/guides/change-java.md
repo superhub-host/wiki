@@ -36,9 +36,9 @@ Caused by: java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$
 ![Вкладка "Запуск"](https://img.share.superhub.xyz/ibzid8.png)
 
 2. В разделе **Docker образ** выберите нужную версию. 
-* Java 8 - `quay.io/pterodactyl/core:java`
-* Java 11 - `quay.io/pterodactyl/core:java-11`
-* Java 16 - `quay.io/parkervcp/pterodactyl-images:debian_openjdk-16`
+* Java 8 - `ghcr.io/pterodactyl/yolks:java_8`
+* Java 11 - `ghcr.io/pterodactyl/yolks:java_11`
+* Java 16 - `ghcr.io/pterodactyl/yolks:java_16`
 
 Всё, версия Java изменена. Для применения изменений необходимо перезапустить сервер.
 
