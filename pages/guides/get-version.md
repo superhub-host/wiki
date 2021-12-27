@@ -1,6 +1,6 @@
 ---
 title: Узнать версию сервера
-description: Как узнать версию Minecraft сервера на хостинге superhub.host
+description: Как узнать версию Minecraft сервера на хостинге
 ---
 
 Как узнать версию сервера PaperSpigot, CraftBukkit, Spigot и др.?

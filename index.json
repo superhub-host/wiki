@@ -44,17 +44,17 @@
         "pages": [
             {
                 "name": "Оферта",
-                "path": "oferta",
+                "path": "docs/oferta",
                 "description": "Пользовательское соглашение нашего хостинга."
             },
             {
                 "name": "Политика Конфиденциальности",
-                "path": "privacy",
+                "path": "docs/privacy",
                 "description": "Порядок обработки данных пользователей на нашем хостинге."
             },
             {
                 "name": "Bug Bounty",
-                "path": "bug-bounty",
+                "path": "docs/bug-bounty",
                 "description": "Информация о том, как вы можете сообщить об ошибках на нашем хостинге и получить вознаграждение за это."
             }
         ]
