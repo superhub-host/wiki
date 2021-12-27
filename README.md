@@ -5,4 +5,4 @@
 - [x] LSR
 - [x] FAQ
 - [x] Релизы (??)
-- [ ] update `index.json`
+- [x] update `index.json`
