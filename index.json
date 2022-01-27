@@ -66,6 +66,11 @@
                 "name": "Загрузка собственной сборки",
                 "path": "guides/upload-build",
                 "description": "Инструкция по загрузке собственной сборки на superhub.host."
+            },
+            {
+                "name": "Выдача доступа к панели сервера",
+                "path": "guides/share-server",
+                "description": "Инструкция по выдаче доступа к панели сервера на superhub.host."
             }
         ]
     },
