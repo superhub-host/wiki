@@ -69,7 +69,7 @@
             }
             {
                 "name": "Выдача доступа к панели сервераа",
-                "path": "guides/share",
+                "path": "guides/share-server",
                 "description": "Инструкция по выдаче доступа к панели сервера на superhub.host."
             },
         ]
