@@ -113,4 +113,7 @@ modules.xml
 # Support for Project snippet scope
 !.vscode/*.code-snippets
 
+# NPM
+node_modules
+
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudiocode

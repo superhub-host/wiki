@@ -14,4 +14,4 @@ description: Как узнать версию Minecraft сервера на хо
 This server is running Paper version git-Paper-249 (MC: 1.13.1) (Implementing API version 1.13.1-R0.1-SNAPSHOT)
 ```
 
-> Если вы покупаете стандартный сервер, по умолчанию используется последняя актуальная версия Minecraft
+? > Если вы покупаете стандартный сервер, по умолчанию используется последняя актуальная версия Minecraft
