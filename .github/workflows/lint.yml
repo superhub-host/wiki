@@ -21,5 +21,8 @@ jobs:
       - name: Prepare dependencies
         run: npm ci
 
+      - name: Run eslint
+        run: npx eslint *.json
+
       - name: Run remark-lint
         run: npm run check
