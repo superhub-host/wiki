@@ -1,0 +1,25 @@
+name: 'Check markdown with remark-lint'
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: dependencies
+
+      - name: Prepare dependencies
+        run: npm ci
+
+      - name: Run remark-lint
+        run: npm run check
