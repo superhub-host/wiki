@@ -1,4 +1,4 @@
-name: 'Check markdown with remark-lint'
+name: Markdown Lint
 
 on:
   pull_request:
