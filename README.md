@@ -1,8 +1,2 @@
-Что сделать: 
-- [x] Блог
-- [x] Гайды
-- [x] Документы
-- [x] LSR
-- [x] FAQ
-- [x] Релизы (??)
-- [x] update `index.json`
+# Superhub Wiki
+Репозиторий с содержимым страниц, доступных на [superhub.host/wiki](https://superhub.host/wiki).
