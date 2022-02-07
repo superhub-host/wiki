@@ -33,7 +33,7 @@ Caused by: java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$
 ## Инструкция
 1. Перейдите во вкладку "Запуск" в панели управления сервером
 
-![Вкладка "Запуск"](https://img.share.superhub.xyz/ibzid8.png)
+![Вкладка "Запуск"](/images/guides/change-java/page-start.png)
 
 2. В разделе **Docker образ** выберите нужную версию. 
 - Java 8 - `ghcr.io/pterodactyl/yolks:java_8`
@@ -48,6 +48,6 @@ Caused by: java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$
 ### Не могу выбрать образ
 На некоторых серверах, особенно старых, вы можете столкнуться с тем, что выбрать образ нельзя:
 
-![Нельзя изменить образ](https://img.share.superhub.xyz/yt3ewx.png)
+![Нельзя изменить образ](/images/guides/change-java/cant-change-docker-image.png)
 
 В таких ситуациях просто обратитесь в техническую поддержку, мы установим нужную версию Java.

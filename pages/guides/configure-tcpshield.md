@@ -17,15 +17,15 @@ description: Инструкция по настройке TCPShield - беспл
 
 Далее необходимо указать, по какому адресу будут подключаться игроки. Надо заметить, что после настройки TCPShield подключиться к серверу можно будет только **по домену**, "числовой" адрес станет недоступен. Перейдите во вкладку ["Domains"](https://panel.tcpshield.com/networks/manage), здесь будет содержимое CNAME записи и инструкция о том, как эту запись создать. Если у Вас есть свой домен, следуйте ей.
 
-![Domains](https://img.share.superhub.xyz/devo5g.png)
+![Domains](/images/guides/configure-tcpshield/domains.png)
 
 Те, у кого нет собственного домена, могут воспользоваться доменом хостинга - `mineserver.xyz`. Для этого перейдите во вкладку ["Сервера"](https://superhub.host/account/servers) личного кабинета на сайте хостинга и зайдите в "Управление сервером" для сервера, для которого настраивается TCPShield. В разделе "Домен" выберите желаемый домен, установите флажок "Использовать TCPShield" и укажите содержимое CNAME записи с сайта TCPShield.
 
-![Домены](https://img.share.superhub.xyz/rvdnk0.png)
+![Домены](/images/guides/configure-tcpshield/domain-on-site.png)
 
 Теперь домен нужно добавить в настройках TCPShield. Для этого в нижней части страницы "Domains" нажмите "Add Domain" и укажите тот же домен, который указан в настройках сервера на сайте хостинга. В нашем случае это `test-server.mineserver.xyz`. Если всё сделано правильно, будет отображено "Domain verified". Также необходимо выбрать ранее созданный "Backend Set", в нашем случае это `Production`.
 
-![Добавление домена](https://img.share.superhub.xyz/iks1qg.png)
+![Добавление домена](/images/guides/configure-tcpshield/add-domain-in-tcpshield.png)
 
 Если отображается "Unverified", проверьте, что указан тот же домен, что и в "Управлении сервером" на хостинге, а содержимое CNAME записи указано верно.
 
