@@ -71,6 +71,11 @@
                 "name": "Выдача доступа к панели сервера",
                 "path": "guides/share-server",
                 "description": "Инструкция по выдаче доступа к панели сервера на superhub.host."
+            },
+            {
+                "name": "Как подключить базу данных к плагину AuthMe",
+                "path": "guides/connect-db",
+                "description": "Инструкция по подключению плагина к базе данных, на примере AuthMe."
             }
         ]
     },
