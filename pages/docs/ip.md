@@ -8,6 +8,7 @@ description: Таблица с названиями нод и их IP адрес
 | cult.host.mineserver.xyz       | 185.186.143.152 |
 | einstein.host.mineserver.xyz   | 5.188.119.139   |
 | fourier.host.mineserver.xyz    | 91.206.15.18    |
+| jupiter.host.mineserver.xyz    | 142.132.223.37  |
 | mars.host.mineserver.xyz       | 168.119.145.214 |
 | newton.host.mineserver.xyz     | 5.182.5.7       |
 | rutherford.host.mineserver.xyz | 5.188.159.125   |
