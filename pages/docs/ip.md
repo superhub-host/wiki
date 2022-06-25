@@ -6,6 +6,7 @@ description: Таблица с названиями нод и их IP адрес
 | FQDN                           | IP              | Активна |
 |--------------------------------|-----------------|---------|
 | cult.host.mineserver.xyz       | 185.186.143.152 | Да      |
+| curie.host.mineserver.xyz      | 94.26.248.95    | Да      |
 | einstein.host.mineserver.xyz   | 5.188.119.139   | Нет     |
 | fourier.host.mineserver.xyz    | 91.206.15.18    | Нет     |
 | jupiter.host.mineserver.xyz    | 142.132.223.37  | Да      |
