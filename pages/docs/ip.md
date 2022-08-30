@@ -13,6 +13,7 @@ description: Таблица с названиями нод и их IP адрес
 | mars.host.mineserver.xyz       | 168.119.145.214 | Да      |
 | newton.host.mineserver.xyz     | 5.182.5.7       | Нет     |
 | rutherford.host.mineserver.xyz | 5.188.159.125   | Да      |
+| saturn.host.mineserver.xyz     | 95.217.38.112   | Да      |
 | venus.host.mineserver.xyz      | 136.243.103.125 | Да      |
 | wind.host.mineserver.xyz       | 5.188.141.184   | Да      |
 
