@@ -14,7 +14,7 @@ description: Таблица с названиями нод и их IP адрес
 | newton.host.mineserver.xyz     | 5.182.5.7       | Санкт-Петербург | Нет     |
 | rutherford.host.mineserver.xyz | 5.188.159.125   | Санкт-Петербург | Да      |
 | saturn.host.mineserver.xyz     | 95.217.38.112   | Финляндия       | Да      |
-| venus.host.mineserver.xyz      | 136.243.103.125 | Финляндия       | Да      |
+| venus.host.mineserver.xyz      | 136.243.103.125 | Германия        | Да      |
 | wind.host.mineserver.xyz       | 5.188.141.184   | Москва          | Да      |
 
 ---
