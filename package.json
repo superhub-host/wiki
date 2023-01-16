@@ -28,7 +28,6 @@
     "remark-lint-heading-increment": "^3.1.1",
     "remark-lint-list-item-content-indent": "^3.1.1",
     "remark-lint-list-item-indent": "^3.1.1",
-    "remark-lint-no-dead-urls": "^1.1.0",
     "remark-lint-no-file-name-consecutive-dashes": "^2.1.1",
     "remark-lint-no-file-name-mixed-case": "^2.1.1",
     "remark-lint-no-file-name-outer-dashes": "^2.1.1",
@@ -69,9 +68,6 @@
       ],
       [
         "remark-lint-no-file-name-outer-dashes"
-      ],
-      [
-        "remark-lint-no-dead-urls"
       ],
       [
         "remark-lint-heading-style",
