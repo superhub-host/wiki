@@ -58,6 +58,7 @@ description: Информация о том, как вы можете сообщ
 
 Мы принимаем только ошибки, так или иначе связанные с нашими службами, в частности, располагающимися на этих доменах:
 - `panel.superhub.host`
+- `auth.superhub.host`
 - `pay.superhub.host`
 - `api.superhub.host`
 - `superhub.host`
