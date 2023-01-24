@@ -20,19 +20,19 @@ BungeeCord — это прокси ядро для сервера Майнкра
   3. В блоке servers укажите игровые сервера, которые будут подключены к данному прокси. Кажому серверу придумайте своё название, и укажите их адрес.
     Пример:
       ```yaml
-      servers:
-        lobby:
-          motd: 'Лобби'
-          address: 94.26.248.95:25567
-          restricted: false
-        survival:
-          motd: '&1Выживание'
-          address: 91.206.15.18:25568
-          restricted: false
-        minigames:
-          motd: '&cСервер миниигр'
-          address: 91.206.15.18:25569
-          restricted: false
+servers:
+  lobby:
+    motd: 'Лобби'
+    address: 94.26.248.95:25567
+    restricted: false
+  survival:
+    motd: '&1Выживание'
+    address: 91.206.15.18:25568
+    restricted: false
+  minigames:
+    motd: '&cСервер миниигр'
+    address: 91.206.15.18:25569
+    restricted: false
 ```
   4. В блоке `priorities` укажите сервер, на который игрока будет подключать при заходе. В нем указываем название сервера из пункта №3.
     Пример:
