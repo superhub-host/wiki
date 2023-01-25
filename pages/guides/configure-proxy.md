@@ -9,7 +9,7 @@ BungeeCord — это прокси ядро для сервера Майнкра
 ![Визуализация работы прокси в Minecraft](/images/guides/configure-proxy/proxy.png)
 
 ## Инструкция
-Первым делом необходимо [купить](https://superhub.host/order/minecraft) отдельный сервер Java Edition Proxy. Можно выбрать любой форк BungeeCord'а, но мы  рекомендуем FlameCord.
+Первым делом необходимо [купить](https://superhub.host/order/minecraft) отдельный сервер Java Edition Proxy. Можно выбрать любой форк BungeeCord'а, но мы рекомендуем FlameCord.
 
 Если вы решите сменить ядро вашего прокси, достаточно [заменить](https://superhub.host/guides/change-version) предыдущий .jar файл новым.
 
