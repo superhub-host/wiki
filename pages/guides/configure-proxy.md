@@ -63,4 +63,4 @@ BungeeCord — это прокси ядро для сервера Майнкра
      Помимо игрового сервера лимит по количеству игроков нужно указать в `config.yml` на прокси в строке `max_players: 1`.
 
 3. Сервер атакуют боты!
-     [Настройте TCPShield](https://superhub.host/guides/configure-tcpshield) или поэкспериментируйте с настройками прокси. Например, в `modules.yml` включение пункта `reconnect:` заставит игрока переподключиться при первом заходе, чтобы доказать, что он человек. Также можно настроить **[BungeeGuard](https://www.spigotmc.org/resources/bungeeguard.79601)**.
+     [Настройте TCPShield](https://superhub.host/guides/configure-tcpshield) или поэкспериментируйте с настройками прокси. Например, в `modules.yml` включение пункта `reconnect:` заставит игрока переподключиться при первом заходе, чтобы доказать, что он человек. Также можно настроить [BungeeGuard](https://www.spigotmc.org/resources/bungeeguard.79601).
