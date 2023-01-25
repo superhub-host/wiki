@@ -45,7 +45,7 @@ priorities:
 - lobby
 ```
 
-4. В завершении находим параметр `ip_forward: false` и меняем его значение на `true`. Далее на всех игровых серверах, подключаемых к прокси, открываем `spigot.yml` и меняем значение параметра `bungeecord: false` на `true`.
+4. Находим параметр `ip_forward: false` и меняем его значение на `true`. Далее на всех игровых серверах, подключаемых к прокси, открываем `spigot.yml` и меняем значение параметра `bungeecord: false` на `true`.
 
 Более подробное описание всех параметров можно найти [здесь](https://www.spigotmc.org/wiki/bungeecord-configuration-guide).
 
