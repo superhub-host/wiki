@@ -22,28 +22,28 @@ BungeeCord — это прокси ядро для сервера Майнкра
 
 2. В блоке `servers` укажите игровые сервера, которые будут подключены к данному прокси. Кажому серверу придумайте своё название и укажите адрес.
 
-  ```yaml
-  servers:
-    lobby:
-      motd: 'Лобби'
-      address: 123.123.123.123:25567
-      restricted: false
-    survival:
-      motd: '&1Выживание'
-      address: 123.123.123.123:25568
-      restricted: false
-    minigames:
-      motd: '&cСервер миниигр'
-      address: 123.123.123.123:25569
-      restricted: false
-  ```
+```yaml
+servers:
+  lobby:
+    motd: 'Лобби'
+    address: 123.123.123.123:25567
+    restricted: false
+  survival:
+    motd: '&1Выживание'
+    address: 123.123.123.123:25568
+    restricted: false
+  minigames:
+    motd: '&cСервер миниигр'
+    address: 123.123.123.123:25569
+    restricted: false
+```
 
 3. В блоке `priorities` укажите сервер, на который игрока будет подключать при заходе. В нем указываем название нужного сервера из пункта №3. Пример:
 
-  ```yaml
-  priorities:
-  - lobby
-  ```
+```yaml
+priorities:
+- lobby
+```
 
 4. Находим параметр `ip_forward: false` и меняем его значение на `true`. Далее на всех игровых серверах, подключаемых к прокси, открываем `spigot.yml` и меняем значение параметра `bungeecord: false` на `true`.
 
@@ -53,11 +53,11 @@ BungeeCord — это прокси ядро для сервера Майнкра
 1. FlameCord: Country is blocked. (Страна заблокирована)
 По умолчанию у FlameCord включен чёрный список стран для подключения к серверу, поэтому у вас может не получиться зайти. Для отключения фильтра заходим в `flamecord.yml` и находим блок ниже. Ставим `enabled: false`:
 
-  ```yaml
-  antibot:
-    country:
-      enabled: true
-  ```
+```yaml
+antibot:
+  country:
+    enabled: true
+```
 
 2. Максимально возможное число игроков для входа = 1.
 Помимо игрового сервера лимит по количеству игроков нужно указать в `config.yml` на прокси в строке `max_players: 1`.
