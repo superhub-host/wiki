@@ -30,6 +30,7 @@ description: Инструкция по изменению версии Minecraft
 | PocketMine MP     | GitHub: https://github.com/pmmp/PocketMine-MP/releases |
 | Nukkit            | Jenkins: https://ci.opencollab.dev/job/NukkitX/job/Nukkit/job/master/ |
 | PowerNukkit       | GitHub: https://github.com/PowerNukkit/PowerNukkit/releases |
+| PowerNukkitX      | GitHub: https://github.com/PowerNukkitX/PowerNukkitX/releases |
 | Geyser            | Jenkins: https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/ |
 
 ## Возможные проблемы
