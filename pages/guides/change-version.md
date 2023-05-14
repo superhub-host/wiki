@@ -21,12 +21,11 @@ description: Инструкция по изменению версии Minecraft
 | :---              | :---         |
 | Vanilla (Java)    | В официальном лаунчере: "Установки" -> "Новая установка", выбрать нужную версию и нажать на "Сервер" над полем с выбором версии. |
 | Spigot            | Официальных готовых сборок нет. Инструкции по сборке из исходников через BuildTools: https://www.spigotmc.org/wiki/buildtools/ |
-| Paper             | На официальном сайте: https://papermc.io/downloads (поддерживаемые версии Minecraft), https://papermc.io/legacy (устаревшие версии Minecraft) |
-| Airplane          | Jenkins: https://ci.tivy.ca |
+| Paper             | На официальном сайте: https://papermc.io/downloads/paper (последняя версия Minecraft), https://papermc.io/downloads/all (все версии Minecraft) |
 | Forge             | На официальном сайте: https://files.minecraftforge.net/net/minecraftforge/forge/ (выбрать "Installer", скачать и запустить на компьютере, потом загрузить сгенерированные установщиком файлы на хостинг) |
 | Fabric            | На официальном сайте: https://fabricmc.net/use/ (установщик: скачать и запустить на компьютере, потом загрузить сгенерированные им файлы на хостинг) |
 | BungeeCord        | Jenkins: https://ci.md-5.net/job/BungeeCord/ |
-| Velocity          | На официальном сайте: https://velocitypowered.com/downloads |
+| Velocity          | На официальном сайте: https://papermc.io/downloads/velocity |
 | Vanilla (Bedrock) | На официальном сайте: https://www.minecraft.net/en-us/download/server/bedrock |
 | PocketMine MP     | GitHub: https://github.com/pmmp/PocketMine-MP/releases |
 | Nukkit            | Jenkins: https://ci.opencollab.dev/job/NukkitX/job/Nukkit/job/master/ |
