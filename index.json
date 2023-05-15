@@ -8,6 +8,11 @@
                 "description": "Инструкция по изменению версии Java на сервере в панели."
             },
             {
+                "name": "Как создать сервер Minecraft?",
+                "path": "guides/create-server",
+                "description": "Краткая инструкция по созданию сервера Minecraft Java Edition."
+            },
+            {
                 "name": "Изменение версии сервера",
                 "path": "guides/change-version",
                 "description": "Инструкция по изменению версии Minecraft на сервере."
@@ -83,7 +88,7 @@
                 "description": "Инструкция по выдаче доступа к панели сервера нашей технической поддержке."
             },
             {
-                "name": "Как подключить базу данных к плагину AuthMe",
+                "name": "Как подключить базу данных к плагину AuthMe?",
                 "path": "guides/connect-db",
                 "description": "Инструкция по подключению плагина к базе данных, на примере AuthMe."
             }
