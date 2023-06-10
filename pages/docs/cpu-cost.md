@@ -19,7 +19,7 @@ description: Описание методов вычисления стоимос
 | Intel Core i7-7700 | 1.16 | 5477 |
 | AMD Ryzen 7 3700X | 1.20 | 5677 |
 | AMD Ryzen 5 3600 | 1.24 | 5915 |
-| Intel Core i7-8700 | 1.17 | 6061 |
+| Intel Core i7-8700 | 1.27 | 6061 |
 | Intel Core i9-9900K | 1.70 | 8371 |
 
 ---
