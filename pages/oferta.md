@@ -1,6 +1,12 @@
 ---
 title: Общие условия использования
 description: Общие условия использования услуг хостинга
+
+references:
+- position: after
+  name: Хостинг игровых серверов Minecraft
+  description: Описание услуги "Хостинг игровых серверов Minecraft".
+  path: /tos/minecraft-hosting
 ---
 
 ## 1. Общие положения
