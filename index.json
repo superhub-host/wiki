@@ -8,6 +8,11 @@
                 "description": "Инструкция по исправлению ошибки \"Не удалось проверить имя пользователя\" (\"Failed to verify username\"), с которой можно столкнуться при настройке сервера Minecraft Java Edition."
             },
             {
+                "name": "Установка Forge на свой сервер",
+                "path": "guides/install-forge",
+                "description": "Инструкция по установки Forge на свой сервер."
+            },
+            {
                 "name": "Изменение версии Java",
                 "path": "guides/change-java",
                 "description": "Инструкция по изменению версии Java на сервере в панели."
