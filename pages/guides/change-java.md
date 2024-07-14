@@ -3,14 +3,17 @@ title: Смена версии Java (JDK)
 description: Инструкция по изменению версии Java на сервере в панели.
 ---
 
-По умолчанию для всех Minecraft Java Edition серверов устанавливается Java 11 или 16, в зависимости от устанавливаемой версии игры. Поскольку, начиная с версии 1.17, игра требует Java 16 для работы, в то время как старые версии (например, 1.12.2) её не поддерживают, клиенты могут сталкиваться с подобными ошибками при запуске серверов:
+По умолчанию на нашем хостинге для всех Minecraft серверов устанавливается Java 21. Дело в том что зачастую клиенты используют новейшие версии игры, по этому если вы используете более старую версию вы можете сталкиваться с подобными ошибками при запуске серверов:
 
 ```log
 Error: LinkageError occurred while loading main class net.minecraft.server.Main 
  java.lang.UnsupportedClassVersionError: net/minecraft/server/Main has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
 ```
+```log
+Minecraft 1.19 requires running the server with Java 17 or above. Download Java 17 (or above) from https://adoptium.net/
+```
 
-Конкретно эта ошибка вызвана тем, что сервер, не поддерживающий версии Java до 16, запускается с Java 11. Владельцы серверов с Forge могут сталкиваться с тем, что их сервера не запускаются, в самом начале выдавая такую ошибку:
+Конкретно данные ошибки говорят о том, что ваш сервер не поддерживает текущую версию java и вам нужно изменить её на нужную вам:
 
 ```log
 A problem occurred running the Server launcher.java.lang.reflect.InvocationTargetException
@@ -40,8 +43,27 @@ Caused by: java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$
 - Java 11 - `ghcr.io/pterodactyl/yolks:java_11`
 - Java 16 - `ghcr.io/pterodactyl/yolks:java_16`
 - Java 17 - `ghcr.io/pterodactyl/yolks:java_17`
+- Java 18 - `ghcr.io/pterodactyl/yolks:java_18`
+- Java 19 - `ghcr.io/pterodactyl/yolks:java_19`
+- Java 21 - `ghcr.io/pterodactyl/yolks:java_21`
+
+P.S. open J9 - это уникальная обработка сделанная под java для изменений потребовательности памяти - оно значительно уменьшает вес потребления оперативной памяти на вашем сервере. Но возможно некоторые плагины и моды - не смогут работать с данной структурой. Какую использовать можете решить самостоятельно, но советуем использовать классический вариант.
 
 Всё, версия Java изменена. Для применения изменений необходимо перезапустить сервер.
+
+## Какие же всё таки версии java нужно использовать и на какой версии
+
+### spigot paper и аналоги:
+
+- До версии майнкрафт 1.15.* - `требуется 8 java или 11 java в зависимости от плагинов`
+- Версии 1.16.* и 1.17.* - `используйте 16 java`
+- Версии 1.18.* - 1.20.*  - `требуется 17 и выше в зависимости от плагинов`
+- Версия 1.21.* - `Используется 21 java`
+
+### forge или fabric:
+
+До версии 1.16.5 (java 8)  
+версии выше, зависят от установленных на них плагинах, возможно включение на 8 java, но бывали случаи когда сервер запускался только на 19 - Вам нужно перебирать java - перезапуская сервер и проверяя ошибки в консоли. К сожалению более точную информацию дать не могу.
 
 ## Возможные проблемы
 
@@ -51,3 +73,4 @@ Caused by: java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$
 ![Нельзя изменить образ](/images/guides/change-java/cant-change-docker-image.png)
 
 В таких ситуациях просто обратитесь в техническую поддержку, мы установим нужную версию Java.
+
