@@ -198,9 +198,9 @@
                 "description": "Описание процедуры миграции пользовательских серверов на хостинге. Дата миграции - 17.05.22."
             },
             {
-                "name": "Игровой хостинг для Minecraft",
-                "path": "blog/minecraft-hosting",
-                "description": "Статья про выбор хостинга серверов Minecraft."
+                "name": "Топ-8 лучших хостингов для Minecraft: выбор для вашего сервера",
+                "path": "blog/hosting-comparison",
+                "description": "Обзор лучших хостингов  для запуска игровых серверов Minecraft от команды Superhub."
             }
         ]
     },
