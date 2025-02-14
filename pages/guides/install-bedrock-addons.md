@@ -1,5 +1,5 @@
 ---
-title: Установка аддонов для Minecraft: Bedrock Edition
+title: Установка аддонов для Bedrock Edition
 description: Как установить аддоны на сервер с ядром для Bedrock
 ---
 
