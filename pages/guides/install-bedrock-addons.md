@@ -1,6 +1,6 @@
 ---
-title: Установка аддонов на сервер Minecraft: Bedrock Edition
-description: Гайд по установке аддонов на сервер с ядром для Minecraft: Bedrock Edition.
+title: 'Установка аддонов на сервер Minecraft: Bedrock Edition'
+description: 'Гайд по установке аддонов на сервер с ядром для Minecraft: Bedrock Edition.'
 ---
 
 ## Аддоны для Minecraft: Bedrock Edition
