@@ -88,6 +88,11 @@
                 "description": "Инструкция по загрузке собственной сборки на superhub.host."
             },
             {
+                "name": "Установка аддонов для Bedrock Edition",
+                "path": "guides/install-bedrock-addons",
+                "description": "Инструкция по установке аддонов на сервер с ядром для Minecraft Bedrock Edition на superhub.host."
+            },
+            {
                 "name": "Выдача доступа к панели сервера",
                 "path": "guides/share-server",
                 "description": "Инструкция по выдаче доступа к панели сервера на superhub.host."
