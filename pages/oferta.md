@@ -11,6 +11,10 @@ references:
   name: Бесплатный хостинг игровых серверов Minecraft
   description: Описание услуги «Бесплатный хостинг игровых серверов Minecraft».
   path: /tos/free-minecraft-hosting
+- position: after
+  name: Хостинг виртуальных серверов
+  description: Описание услуги «Хостинг виртуальных серверов».
+  path: /tos/virtual-hosting
 ---
 
 ## 1. Общие положения
