@@ -183,6 +183,11 @@
         "name": "Блог",
         "pages": [
             {
+                "name": "QNA 2025",
+                "path": "blog/qna-2025",
+                "description": "Текстовая расшифровка стрима с ответами на вопросы администрации superhub.host."
+            },
+            {
                 "name": "QNA 2024",
                 "path": "blog/qna-2024",
                 "description": "Текстовая расшифровка сессии вопрос-ответ от администрации superhub.host."
