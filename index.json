@@ -5,7 +5,12 @@
             {
                 "name": "Не удалось проверить имя пользователя",
                 "path": "guides/online-mode",
-                "description": "Инструкция по исправлению ошибки \"Не удалось проверить имя пользователя\" (\"Failed to verify username\"), с которой можно столкнуться при настройке сервера Minecraft Java Edition."
+                "description": "Инструкция по исправлению ошибки «Не удалось проверить имя пользователя» (\"Failed to verify username\"), с которой можно столкнуться при настройке сервера Minecraft: Java Edition."
+            },
+            {
+                "name": "Рекомендации по безопасности серверов",
+                "path": "guides/secure-server",
+                "description": "Cоветы по тому, как защитить сервер Minecraft: Java Edition."
             },
             {
                 "name": "Установка Forge на свой сервер",
