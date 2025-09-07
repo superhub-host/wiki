@@ -4,7 +4,7 @@ matrix:
     lang: ru
   dictionary:
     wordlists:
-    - .config/wordlist.txt
+    - .github/wordlist.txt
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
