@@ -1,0 +1,20 @@
+name: Markdown Lint
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: rojopolis/spellcheck-github-actions@0.51.0
+        name: Spellcheck
+        with:
+          task_name: Markdown
+          config_path: .config/spellcheck.yml
+

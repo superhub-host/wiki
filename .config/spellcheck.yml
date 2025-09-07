@@ -1,0 +1,14 @@
+matrix:
+- name: Markdown
+  aspell:
+    lang: ru
+  dictionary:
+    wordlists:
+    - wordlist.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+  sources:
+  - 'pages/**/*.md'
+  default_encoding: utf-8
+
