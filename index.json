@@ -184,8 +184,8 @@
             },
             {
                 "name": "Superhub Beam",
-		"path": "docs/superhub-beam.md",
-		"description": "Описание процесса подключения и особенностей Superhub Beam."
+                "path": "docs/superhub-beam.md",
+                "description": "Описание процесса подключения и особенностей Superhub Beam."
             }
         ]
     },
