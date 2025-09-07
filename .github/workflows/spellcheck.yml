@@ -1,4 +1,4 @@
-name: Markdown spelling check
+name: Markdown spellcheck
 
 on:
   pull_request:
