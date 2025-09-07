@@ -36,7 +36,7 @@ spawn-limits:
     ambient: 1
 ```
 
-- autosave — параметр, который отвечает за авто-сохранение.
+- `autosave` — параметр, который отвечает за авто-сохранение.
 ```yaml
 ticks-per:
     animal-spawns: 400

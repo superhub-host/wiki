@@ -12,9 +12,9 @@ description: Часто встречающиеся ошибки panel.superhub.h
 [21:22:40 ERROR]: Encountered an unexpected exception. 
 ```
 
-- 0 - (world)
-- 1 - (world_nether)
-- 2 - (world_the_end)
+- 0 - `world`
+- 1 - `world_nether`
+- 2 - `world_the_end`
 
 У этой проблемы есть 2 решения:
 1. Удалить ваш мир
