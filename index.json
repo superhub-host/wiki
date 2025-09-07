@@ -181,6 +181,11 @@
                 "name": "Стоимость ЦПУ",
                 "path": "docs/cpu-cost",
                 "description": "Описание методов вычисления стоимости процессорных ресурсов на хостинге."
+            },
+            {
+                "name": "Superhub Beam",
+		"path": "docs/superhub-beam.md",
+		"description": "Описание процесса подключения и особенностей Superhub Beam."
             }
         ]
     },
