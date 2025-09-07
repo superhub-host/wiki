@@ -3,4 +3,21 @@ Minecraft
 HAProxy
 Aurorix
 Minerent
+Xeon
+Ryzen
+Qiwi
+Plasmo
+DynMap
+TCPShield
+Nukkit
+Terraria
+Hetzner
+Netcat
+Huawei
+Supermicro
+Bukkit
+etcd
+Selectel
+VMmanager
+Percona
 
