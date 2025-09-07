@@ -2,6 +2,6 @@ extends: spelling
 message: "Did you really mean '%s'?"
 level: error
 dictionaries:
-  - en_US
+  - en_US-web
   - ru_RU
 
