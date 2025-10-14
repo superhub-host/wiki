@@ -205,7 +205,12 @@
             {
                 "name": "Топ-8 лучших хостингов для Minecraft: выбор для вашего сервера",
                 "path": "blog/hosting-comparison",
-                "description": "Обзор лучших хостингов  для запуска игровых серверов Minecraft от команды Superhub."
+                "description": "Обзор лучших хостингов для запуска игровых серверов Minecraft от команды Superhub."
+            },
+            {
+                "name": "VPS для Minecraft: почему это лучший способ запустить сервер",
+                "path": "blog/vps-hosting",
+                "description": "Запустите сервер Minecraft на VPS от Superhub: высокая производительность, гибкость, DDoS-защита и удобные тарифы. Надёжный хостинг для любого проекта."
             }
         ]
     },
