@@ -11,7 +11,7 @@ description: Инструкция по использованию SFTP для д
 ## Доступ через сторонний клиент
 Если вы не хотите использовать встроенный клиент, вы можете обратиться к услугам сторонних SFTP клиентов.
 
-Например, WinSCP (Windows) - https://winscp.net/ , или FileZilla (Windows, Linux, Mac) - https://filezilla-project.org/
+Например, WinSCP (Windows) - https://winscp.net/ или FileZilla (Windows, Linux, Mac) - https://filezilla-project.org/
 
 Данные для использования стороннего SFTP клиента находятся в меню **Настройки** далее **Данные для SFTP** в панели управления.
 
