@@ -13,6 +13,11 @@
                 "description": "Cоветы по тому, как защитить сервер Minecraft: Java Edition."
             },
             {
+                "name": "Сканирование сервера на клиентские моды",
+                "path": "guides/scan-client-mods",
+                "description": "Как проверить папку mods на сервере и найти клиентские моды с помощью ModsChecker."
+            },
+            {
                 "name": "Установка Forge на свой сервер",
                 "path": "guides/install-forge",
                 "description": "Инструкция по установки Forge на свой сервер."
