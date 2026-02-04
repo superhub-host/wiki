@@ -8,7 +8,7 @@ description: Зачем переустанавливать сервер, как 
 
 сервер не запускается;
 
-в логах ошибки Unable to access jarfile, Jar file is corrupt, Main class not found, Invalid or corrupt jarfile;
+Ошибки Unable to access jarfile, Jar file is corrupt, Main class not found, Invalid or corrupt jarfile;
 
 
 ### 2. Нужно установить другую версию
