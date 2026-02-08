@@ -3,6 +3,16 @@
         "name": "Гайды",
         "pages": [
             {
+                "name": "Начало работы с Minecraft сервером",
+                "path": "guides/minecraft/getting-started",
+                "description": "Вступительный гайд для начинающих администраторов серверов Minecraft."
+            },
+            {
+                "name": "Как создать пиратский сервер?",
+                "path": "guides/minecraft/unofficial-server",
+                "description": "Особенности пиратских серверов Minecraft: Java Edition"
+            },
+            {
                 "name": "Не удалось проверить имя пользователя",
                 "path": "guides/online-mode",
                 "description": "Инструкция по исправлению ошибки «Не удалось проверить имя пользователя» (\"Failed to verify username\"), с которой можно столкнуться при настройке сервера Minecraft: Java Edition."
@@ -96,6 +106,11 @@
                 "name": "Загрузка собственной сборки",
                 "path": "guides/upload-build",
                 "description": "Инструкция по загрузке собственной сборки на superhub.host."
+            },
+            {
+                "name": "Какие бывают хостинги?",
+                "path": "guides/minecraft/hosting-services",
+                "description": "Описание возможных форматов хостинга для Minecraft: Java Edition"
             },
             {
                 "name": "Установка аддонов для Bedrock Edition",
