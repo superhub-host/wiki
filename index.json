@@ -13,6 +13,11 @@
                 "description": "Разница между модами и плагинами, установка на сервер и клиент, а также генерация нового мира с модами."
             },
             {
+                "name": "Установка и скачивание своего мира",
+                "path": "guides/minecraft/upload-download-world",
+                "description": "Как загрузить карту из одиночной игры на сервер и наоборот."
+            },
+            {
                 "name": "Как создать пиратский сервер?",
                 "path": "guides/minecraft/unofficial-server",
                 "description": "Особенности пиратских серверов Minecraft: Java Edition"
