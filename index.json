@@ -8,6 +8,11 @@
                 "description": "Вступительный гайд для начинающих администраторов серверов Minecraft."
             },
             {
+                "name": "Установка модов и плагинов",
+                "path": "guides/minecraft/install-mods-and-plugins",
+                "description": "Разница между модами и плагинами, установка на сервер и клиент, а также генерация нового мира с модами."
+            },
+            {
                 "name": "Как создать пиратский сервер?",
                 "path": "guides/minecraft/unofficial-server",
                 "description": "Особенности пиратских серверов Minecraft: Java Edition"
