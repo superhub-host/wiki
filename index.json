@@ -18,6 +18,11 @@
                 "description": "Как загрузить карту из одиночной игры на сервер и наоборот."
             },
             {
+                "name": "Настройка ресурс-паков на сервере",
+                "path": "guides/minecraft/configure-resource-pack",
+                "description": "Как настроить автоматическую загрузку ресурс-пака при входе на сервер."
+            },
+            {
                 "name": "Как создать пиратский сервер?",
                 "path": "guides/minecraft/unofficial-server",
                 "description": "Особенности пиратских серверов Minecraft: Java Edition"
