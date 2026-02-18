@@ -35,12 +35,14 @@ description: Рассматриваем распространенные оши�
 После запуска сервера в консоли может появиться ошибка `UnsupportedClassVersionError`. Это связано с тем, что выбранная версия Java и версия ядра (игры) не совместимы.
 
 Решение в `panel.superhub.host` или `free.superhub.host`:
+
 1. Выберите ваш сервер.
 2. Перейдите во вкладку **Запуск**.
 3. В графе `Образ Docker` измените версию Java на подходящую для вашей версии.
 4. Запустите сервер.
 
 Решение в `my.superhub.host`:
+
 1. Выберите вашу услугу.
 2. Слева выберите вкладку **Настройки**.
 3. В графе `Образ Docker` измените версию Java на подходящую для вашей версии.
@@ -57,11 +59,12 @@ description: Рассматриваем распространенные оши�
 #### 3. Поврежденное ядро
 
 Если перед `Exit code: 1` в консоли есть следующие ошибки:
-  - `Unable to access jarfile`
-  - `Jar file is corrupt`
-  - `Main class not found`
-  - `Invalid or corrupt jarfile`
-  - `The Minecraft server .JAR is missing (/home/container/server.jar)`
+
+- `Unable to access jarfile`;
+- `Jar file is corrupt`;
+- `Main class not found`;
+- `Invalid or corrupt jarfile`;
+- `The Minecraft server .JAR is missing (/home/container/server.jar)`.
 
 ![Exit code: 1 - Unable to access jarfile](/images/guides/minecraft/common-errors/jarfile-error.png)
 
