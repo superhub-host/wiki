@@ -103,11 +103,6 @@
                 "description": "Разбираемся, в чём разница между тарифными линейками, доступными на хостинге."
             },
             {
-                "name": "Изменение версии Java",
-                "path": "guides/change-java",
-                "description": "Инструкция по изменению версии Java на сервере в панели."
-            },
-            {
                 "name": "Как создать сервер Minecraft?",
                 "path": "guides/create-server",
                 "description": "Краткая инструкция по созданию сервера Minecraft Java Edition."
