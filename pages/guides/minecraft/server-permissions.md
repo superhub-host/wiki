@@ -46,7 +46,7 @@ OP выдает полный доступ ко всем возможностям
 - донатерам нужен доступ к определённым командам;
 - обычным игрокам — базовые возможности.
 
-Для гибкой настройки используется система permissions через специальные плагины (PermissionsEX, LuckPerms и т.д.). Поскольку PermissionsEX является устарвевшим, мы разберём [LuckPerms](https://luckperms.net/download).
+Для гибкой настройки используется система permissions через специальные плагины (PermissionsEX, LuckPerms и т.д.). Поскольку PermissionsEX является устаревшим, мы разберём [LuckPerms](https://luckperms.net/download).
 
 ## Принцип работы LuckPerms
 
