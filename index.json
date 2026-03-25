@@ -198,6 +198,16 @@
                 "description": "Инструкция по установке аддонов на сервер с ядром для Minecraft Bedrock Edition на superhub.host."
             },
             {
+                "name": "Создание Terraria сервера",
+                "path": "guides/terraria/getting-started",
+                "description": "Инструкция по запуску Terraria сервера на хостинге."
+            },
+            {
+                "name": "Установка модов на Terraria сервер",
+                "path": "guides/terraria/install-modpack",
+                "description": "Объясняем, как установить модовую сборку на сервер Terraria."
+            },
+            {
                 "name": "Выдача доступа к панели сервера",
                 "path": "guides/share-server",
                 "description": "Инструкция по выдаче доступа к панели сервера на superhub.host."
