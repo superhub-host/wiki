@@ -8,6 +8,21 @@
                 "description": "Вступительный гайд для начинающих администраторов серверов Minecraft."
             },
             {
+                "name": "Настройка иконки сервера (server-icon)",
+                "path": "guides/minecraft/server-icon",
+                "description": "Как подготовить и установить иконку сервера Minecraft, чтобы она отображалась в списке серверов."
+            },
+            {
+                "name": "Настройка описания сервера (MOTD)",
+                "path": "guides/minecraft/motd",
+                "description": "Как изменить описание сервера Minecraft через server.properties, плагины и прокси."
+            },
+            {
+                "name": "Защита спавна (spawn-protection)",
+                "path": "guides/minecraft/spawn-protection",
+                "description": "Как работает встроенная защита спавна в Minecraft и как её изменить или отключить."
+            },
+            {
                 "name": "Выбор и смена версии Java",
                 "path": "guides/minecraft/java-version",
                 "description": "Расскажем, как правильно выбрать версию Java для Minecraft-сервера и поменять её в панели управления."
