@@ -80,9 +80,9 @@ java.lang.UnsupportedClassVersionError: net/minecraft/server/Main has been compi
 ```
 
 Эта ошибка означает, что ядро собрано под более новую Java, чем та, которая
-выбрана на сервере. Например, старые версии Minecraft часто запускаются на Java
-8, версии 1.18–1.20.4 обычно требуют Java 17, а версии 1.20.5 и новее — Java
-21.
+выбрана на сервере. Бывает и наоборот: старые Forge-сборки, например на
+Minecraft 1.12.2 или 1.7.10, часто требуют Java 8 и могут не запускаться на Java
+17 или Java 21.
 
 Изменить Java можно по инструкции
 [«Выбор и смена версии Java»](/guides/minecraft/java-version).
@@ -106,6 +106,7 @@ Error: Unable to access jarfile server.jar
 После отката версии в логах может появиться сообщение:
 
 ```text
+[17:38:24 WARN]: java.lang.RuntimeException: Server attempted to load chunk saved with newer version of minecraft! 2586 > 1343
 Server attempted to load chunk saved with newer version of minecraft
 ```
 
