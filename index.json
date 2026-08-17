@@ -88,6 +88,11 @@
                 "description": "Краткий и понятный гайд по входу в личный кабинет и панели управления."
             },
             {
+                "name": "Изменить пароль аккаунта",
+                "path": "guides/hosting/change-password",
+                "description": "Как изменить пароль от аккаунта Superhub или восстановить доступ."
+            },
+            {
                 "name": "Покупка сервера на хостинге",
                 "path": "guides/hosting/order-server",
                 "description": "Расскажем, как создать сервер у нас на хостинге."
@@ -101,6 +106,11 @@
                 "name": "Восстановление пароля",
                 "path": "guides/hosting/recover-password",
                 "description": "Пошаговая инструкция по сбросу пароля от личного кабинета и панели управления."
+            },
+            {
+                "name": "Как включить и выключить сервер",
+                "path": "guides/hosting/toggle-power",
+                "description": "Как запускать, останавливать и принудительно выключать сервер в панели."
             },
             {
                 "name": "Создание бесплатного сервера",
@@ -118,19 +128,29 @@
                 "description": "Разбираемся, в чём разница между тарифными линейками, доступными на хостинге."
             },
             {
+                "name": "Подключение к VPS",
+                "path": "guides/virtual-servers/server-connection",
+                "description": "Как подключиться к Linux VPS по SSH, сменить пароль и настроить SSH-ключи."
+            },
+            {
                 "name": "Как создать сервер Minecraft?",
                 "path": "guides/create-server",
                 "description": "Краткая инструкция по созданию сервера Minecraft Java Edition."
             },
             {
-                "name": "Изменение версии сервера",
-                "path": "guides/change-version",
-                "description": "Инструкция по изменению версии Minecraft на сервере."
+                "name": "Изменение версии Minecraft сервера",
+                "path": "guides/minecraft/change-version",
+                "description": "Как автоматически или вручную изменить версию Minecraft сервера и заменить ядро."
             },
             {
-                "name": "Настройка домена",
-                "path": "guides/configure-domain",
-                "description": "Для того чтобы ваш сервер Minecraft был доступен по доменному имени без порта, даже если порт отличается от стандартного 25565, необходимо создать SRV-запись в настройках DNS. В этой статье сказано, как это можно сделать."
+                "name": "Настройка домена для Minecraft сервера",
+                "path": "guides/minecraft/configure-domain",
+                "description": "Как привязать свой домен к Minecraft серверу через A и SRV записи."
+            },
+            {
+                "name": "Бесплатный домен для Minecraft сервера",
+                "path": "guides/minecraft/get-free-domain",
+                "description": "Как получить бесплатный поддомен Superhub для Minecraft сервера и проверить DNS."
             },
             {
                 "name": "Настройка RCON",
@@ -168,14 +188,19 @@
                 "description": "Как добавить флаги запуска на хостинге"
             },
             {
-                "name": "Выделить дополнительные порты",
-                "path": "guides/add-ports",
-                "description": "Как выделить дополнительные порты на хостинге"
+                "name": "Порты, доступные на сервере",
+                "path": "guides/hosting/container-ports",
+                "description": "Какие порты доступны на сервере, чем отличаются TCP и UDP и как добавить порт."
             },
             {
-                "name": "Узнать версию сервера",
-                "path": "guides/get-version",
-                "description": "Как узнать версию Minecraft сервера на хостинге superhub.host"
+                "name": "Как узнать ядро и версию сервера",
+                "path": "guides/minecraft/get-version",
+                "description": "Способы определить ядро и версию Minecraft сервера по логам, командам и онлайн-сервисам."
+            },
+            {
+                "name": "Управление игровыми правилами в Minecraft",
+                "path": "guides/minecraft/game-rules",
+                "description": "Как менять gamerule и основные игровые правила Minecraft Java и Bedrock."
             },
             {
                 "name": "Оптимизация Minecraft сервера",
@@ -183,9 +208,9 @@
                 "description": "Инструкция по оптимизация Minecraft сервера для комфортной игры на superhub.host."
             },
             {
-                "name": "Изменить команду запуска",
-                "path": "guides/startup-command",
-                "description": "Инструкция по изменении команды запуска на superhub.host."
+                "name": "Изменение команды запуска",
+                "path": "guides/hosting/change-startup-command",
+                "description": "Как найти команду запуска сервера и изменить параметры старта."
             },
             {
                 "name": "Загрузка собственной сборки",
