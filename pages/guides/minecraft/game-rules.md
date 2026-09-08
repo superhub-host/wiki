@@ -44,7 +44,7 @@ gamerule keepInventory
 
 ## Java Edition
 
-Ниже перечислены основные правила Minecraft: Java Edition. Полный список может отличаться между версиями Minecraft, поэтому для редких правил лучше проверять документацию.
+Ниже перечислены основные правила Minecraft: Java Edition. Полный список может отличаться между версиями Minecraft, поэтому для редких правил лучше проверять [документацию](https://minecraft.wiki/w/Game_rule).
 
 | Правило | Значения | Что делает |
 | --- | --- | --- |
@@ -95,15 +95,6 @@ gamerule keepInventory
 | `playersSleepingPercentage` | число | Процент игроков, которые должны спать для пропуска ночи. |
 | `randomTickSpeed` | число | Скорость случайных тиков мира. |
 | `spawnRadius` | число | Радиус появления игроков вокруг спавна мира. |
-
-## Документация
-
-Полный список правил лучше проверять в Minecraft Wiki:
-
-- [Game rule](https://minecraft.wiki/w/Game_rule) — список игровых
-  правил, значения по умолчанию и доступность в Java/Bedrock.
-- [Commands/gamerule](https://minecraft.wiki/w/Commands/gamerule) —
-  синтаксис команды `gamerule`.
 
 ## Распространённые ошибки
 
