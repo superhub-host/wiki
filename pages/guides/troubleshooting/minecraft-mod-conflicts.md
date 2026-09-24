@@ -25,7 +25,7 @@ description: Разбираемся с частыми проблемами за�
 
 На модовых ядрах часто проблема описана после или до огромного сообщения об ошибке.
 
-![Отсутсвие мода (со стактрейсом)](/images/guides/troubleshooting/minecraft-mod-conflicts/mod-missing-with-stacktrace.png)
+![Отсутсвие мода со стактрейсом](/images/guides/troubleshooting/minecraft-mod-conflicts/mod-missing-with-stacktrace.png)
 
 На скриншоте приведена обычная ошибка отсутствия мода на ядре **NeoForge**. После такой ошибки сервер автоматически останавливается.
 
@@ -37,7 +37,7 @@ description: Разбираемся с частыми проблемами за�
 
 Этот формат ошибки более простой для понимания, хоть его тяжелее найти в логах.
 
-![Отсутсвие мода (без стактрейса)](/images/guides/troubleshooting/minecraft-mod-conflicts/mod-missing.png)
+![Отсутсвие мода без стактрейса](/images/guides/troubleshooting/minecraft-mod-conflicts/mod-missing.png)
 
 ## Как исправить эти проблемы
 
@@ -57,6 +57,6 @@ description: Разбираемся с частыми проблемами за�
 - **Строка требований:** Часто в описании встречается текст вроде *"Requires \[Название] (version X.X or above)"*.
 - **Блок зависимостей:** Например, на Modrinth на страницах проектов есть специальный визуальный блок (обычно в боковой панели или вверху описания), где явно перечислены все требуемые зависимости (Dependencies) со ссылками на них.
 - **Строка "Requires":**
-![Блок "требует"](/images/guides/troubleshooting/minecraft-mod-conflicts/required-mods.png)
+![Блок «требует»](/images/guides/troubleshooting/minecraft-mod-conflicts/required-mods.png)
 
 По такой же схеме абсолютное большинство разработчиков плагинов и модов документируют все требования на страницах своих ресурсов.
