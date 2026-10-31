@@ -1,290 +1,330 @@
 [
     {
-        "name": "Гайды",
+        "name": "Хостинг",
         "pages": [
             {
-                "name": "Начало работы с Minecraft сервером",
-                "path": "guides/minecraft/getting-started",
-                "description": "Вступительный гайд для начинающих администраторов серверов Minecraft.",
-		"featured": true
-            },
-            {
-                "name": "Настройка иконки сервера (server-icon)",
-                "path": "guides/minecraft/server-icon",
-                "description": "Как подготовить и установить иконку сервера Minecraft, чтобы она отображалась в списке серверов."
-            },
-            {
-                "name": "Настройка описания сервера (MOTD)",
-                "path": "guides/minecraft/motd",
-                "description": "Как изменить описание сервера Minecraft через server.properties, плагины и прокси."
-            },
-            {
-                "name": "Защита спавна (spawn-protection)",
-                "path": "guides/minecraft/spawn-protection",
-                "description": "Как работает встроенная защита спавна в Minecraft и как её изменить или отключить."
-            },
-            {
-                "name": "Выбор и смена версии Java",
-                "path": "guides/minecraft/java-version",
-                "description": "Расскажем, как правильно выбрать версию Java для Minecraft-сервера и поменять её в панели управления."
-            },
-            {
-                "name": "Права на сервере Minecraft",
-                "path": "guides/minecraft/server-permissions",
-                "description": "Разбираем как выдать права оператора, особенности в настройке прав и принцип работы LuckPerms на сервере Minecraft."
-            },
-            {
-                "name": "Установка модов и плагинов",
-                "path": "guides/minecraft/install-mods-and-plugins",
-                "description": "В чём их отличие, как подготовить сервер к установке и как сгенерировать мир с новыми биомами.",
-		"featured": true
-            },
-            {
-                "name": "Установка и скачивание своего мира",
-                "path": "guides/minecraft/upload-download-world",
-                "description": "Как загрузить карту из одиночной игры на сервер и наоборот."
-            },
-            {
-                "name": "Настройка ресурс-паков на сервере",
-                "path": "guides/minecraft/configure-resource-pack",
-                "description": "Как сделать так, чтобы при входе на сервер игрокам автоматически предлагалось скачать текстуры."
-            },
-            {
-                "name": "Настройка вайт-листа (белый список)",
-                "path": "guides/minecraft/configure-whitelist",
-                "description": "Обучаемся созданию списка разрешённых игроков и управлению доступом к вашему серверу Minecraft."
-            },
-            {
-                "name": "Как создать пиратский сервер?",
-                "path": "guides/minecraft/unofficial-server",
-                "description": "Особенности пиратских серверов Minecraft: Java Edition"
-            },
-            {
-                "name": "Решение проблем при запуске",
-                "path": "guides/minecraft/common-errors",
-                "description": "Рассматриваем распространенные ошибки, из-за которых не запускается сервер, а также способы их решения.",
-		"featured": true
-            },
-            {
-                "name": "Не удалось проверить имя пользователя",
-                "path": "guides/online-mode",
-                "description": "Инструкция по исправлению ошибки «Не удалось проверить имя пользователя» (\"Failed to verify username\"), с которой можно столкнуться при настройке сервера Minecraft: Java Edition."
-            },
-            {
-                "name": "Рекомендации по безопасности серверов",
-                "path": "guides/secure-server",
-                "description": "Cоветы по тому, как защитить сервер Minecraft: Java Edition."
-            },
-            {
-                "name": "Сканирование сервера на клиентские моды",
-                "path": "guides/scan-client-mods",
-                "description": "Как проверить папку mods на сервере и найти клиентские моды с помощью ModsChecker."
-            },
-            {
-                "name": "Установка Forge на свой сервер",
-                "path": "guides/install-forge",
-                "description": "Инструкция по установки Forge на свой сервер."
-            },
-            {
-                "name": "Вход в аккаунт и панель управления",
-                "path": "guides/hosting/sign-in",
-                "description": "Краткий и понятный гайд по входу в личный кабинет и панели управления."
-            },
-            {
-                "name": "Изменить пароль аккаунта",
-                "path": "guides/hosting/change-password",
-                "description": "Как изменить пароль от аккаунта Superhub или восстановить доступ."
-            },
-            {
-                "name": "Покупка сервера на хостинге",
+                "name": "Покупка сервера",
                 "path": "guides/hosting/order-server",
-                "description": "Расскажем, как создать сервер у нас на хостинге.",
-		"featured": true
+                "description": "Как заказать сервер: выбор тарифа, локации и предустановленного ПО.",
+                "featured": true
             },
             {
-                "name": "Переустановка сервера",
-                "path": "guides/hosting/reinstall-server",
-                "description": "Инструкция по возвращению сервера в исходное состояние и восстановлению файлов."
-            },
-            {
-                "name": "Восстановление пароля",
-                "path": "guides/hosting/recover-password",
-                "description": "Пошаговая инструкция по сбросу пароля от личного кабинета и панели управления."
-            },
-            {
-                "name": "Как включить и выключить сервер",
-                "path": "guides/hosting/toggle-power",
-                "description": "Как запускать, останавливать и принудительно выключать сервер в панели."
-            },
-            {
-                "name": "Создание бесплатного сервера",
+                "name": "Бесплатный сервер",
                 "path": "guides/hosting/create-free-server",
-                "description": "Как получить тестовый сервер за 1 рубль, его технические ограничения."
-            },
-            {
-                "name": "Изменение локации, тарифа и линейки оборудования",
-                "path": "guides/hosting/change-location-or-tariff",
-                "description": "Как перенести сервер в другую страну, чем отличаются тарифные линейки и как прокачать ресурсы."
+                "description": "Тестовый сервер Minecraft за 1 рубль: характеристики, условия и ограничения."
             },
             {
                 "name": "Тарифные линейки",
                 "path": "guides/hosting/tariff-sets",
-                "description": "Разбираемся, в чём разница между тарифными линейками, доступными на хостинге."
+                "description": "Чем отличаются линейки Cheap, Medium и Powerful и какую выбрать."
             },
             {
-                "name": "Подключение к VPS",
-                "path": "guides/virtual-servers/server-connection",
-                "description": "Как подключиться к Linux VPS по SSH, сменить пароль и настроить SSH-ключи."
+                "name": "Изменение тарифа и локации",
+                "path": "guides/hosting/change-location-or-tariff",
+                "description": "Как увеличить ресурсы, сменить тариф, локацию или линейку и сколько спишется."
             },
             {
-                "name": "Как создать сервер Minecraft?",
+                "name": "Вход в аккаунт",
+                "path": "guides/hosting/sign-in",
+                "description": "Регистрация, вход в личный кабинет и панель управления серверами."
+            },
+            {
+                "name": "Изменение пароля",
+                "path": "guides/hosting/change-password",
+                "description": "Как сменить пароль аккаунта Superhub и защитить его с помощью 2FA."
+            },
+            {
+                "name": "Восстановление пароля",
+                "path": "guides/hosting/recover-password",
+                "description": "Как сбросить забытый пароль от личного кабинета и панели управления."
+            },
+            {
+                "name": "Изменение почты и никнейма",
+                "path": "guides/hosting/change-user-details",
+                "description": "Как изменить адрес электронной почты или никнейм аккаунта."
+            },
+            {
+                "name": "Включение и выключение сервера",
+                "path": "guides/hosting/toggle-power",
+                "description": "Запуск, перезапуск, остановка и принудительное выключение (Kill) в панели."
+            },
+            {
+                "name": "Переустановка сервера",
+                "path": "guides/hosting/reinstall-server",
+                "description": "Как вернуть сервер в исходное состояние, какие файлы удалятся и что делать при зависании."
+            },
+            {
+                "name": "Команда запуска",
+                "path": "guides/hosting/change-startup-command",
+                "description": "Где посмотреть команду запуска, как изменить файл запуска и аргументы JVM."
+            },
+            {
+                "name": "Порты сервера",
+                "path": "guides/hosting/container-ports",
+                "description": "Основной и дополнительные порты, TCP и UDP, как добавить порт для плагина."
+            },
+            {
+                "name": "Доступ по SFTP",
+                "path": "guides/use-sftp",
+                "description": "Файловый менеджер панели и подключение по SFTP через FileZilla или WinSCP."
+            },
+            {
+                "name": "Планировщик задач",
+                "path": "guides/hosting/use-crontab",
+                "description": "Автоматические рестарты, бэкапы и команды по расписанию (cron)."
+            },
+            {
+                "name": "Выдача доступа к серверу",
+                "path": "guides/share-server",
+                "description": "Как добавить другого пользователя в панель сервера и выдать ему разрешения."
+            },
+            {
+                "name": "Проблемы с панелью",
+                "path": "guides/hosting/panel-errors",
+                "description": "Ошибки Wings, сервер не отвечает, файлы не загружаются, долгая установка или бэкап."
+            },
+            {
+                "name": "Удаление услуги",
+                "path": "guides/hosting/delete-instance",
+                "description": "Как удалить сервер с хостинга и что произойдёт с его данными."
+            }
+        ]
+    },
+    {
+        "name": "Minecraft: первые шаги",
+        "pages": [
+            {
+                "name": "Начало работы",
+                "path": "guides/minecraft/getting-started",
+                "description": "Вводный гайд: зачем нужен сервер Minecraft, какие бывают ядра, настройки и запуск.",
+                "featured": true
+            },
+            {
+                "name": "Как создать сервер",
                 "path": "guides/create-server",
-                "description": "Краткая инструкция по созданию сервера Minecraft Java Edition."
+                "description": "Что нужно, чтобы создать сервер Minecraft для игры с друзьями или своего проекта."
             },
             {
-                "name": "Изменение версии Minecraft сервера",
+                "name": "Зачем нужен хостинг",
+                "path": "guides/minecraft/hosting-services",
+                "description": "Чем хостинг лучше домашнего ПК: панельный хостинг, VPS и выделенные серверы."
+            },
+            {
+                "name": "Пиратский сервер",
+                "path": "guides/minecraft/unofficial-server",
+                "description": "Сервер для игроков без лицензии: online-mode, авторизация и скины."
+            },
+            {
+                "name": "«Не удалось проверить имя»",
+                "path": "guides/online-mode",
+                "description": "Как исправить «Не удалось проверить имя пользователя» (Failed to verify username)."
+            },
+            {
+                "name": "Ошибки при запуске",
+                "path": "guides/minecraft/common-errors",
+                "description": "Почему сервер не запускается или выключается: коды Exit code и ошибки в консоли.",
+                "featured": true
+            }
+        ]
+    },
+    {
+        "name": "Minecraft: версия и запуск",
+        "pages": [
+            {
+                "name": "Как узнать версию и ядро",
+                "path": "guides/minecraft/get-version",
+                "description": "Как определить версию и ядро сервера по логам, команде version и онлайн-сервисам."
+            },
+            {
+                "name": "Изменение версии и ядра",
                 "path": "guides/minecraft/change-version",
-                "description": "Как автоматически или вручную изменить версию Minecraft сервера и заменить ядро."
+                "description": "Как поменять версию Minecraft или ядро автоматически в панели или заменой JAR."
             },
             {
-                "name": "Настройка домена для Minecraft сервера",
+                "name": "Версия Java",
+                "path": "guides/minecraft/java-version",
+                "description": "Какая Java нужна для вашей версии Minecraft и как сменить её в панели."
+            },
+            {
+                "name": "Флаги запуска JVM",
+                "path": "guides/add-flags",
+                "description": "Как добавить аргументы JVM для Minecraft Java Edition во вкладке «Запуск»."
+            },
+            {
+                "name": "Загрузка своей сборки",
+                "path": "guides/upload-build",
+                "description": "Как загрузить готовую сборку или модпак на сервер и запустить её."
+            }
+        ]
+    },
+    {
+        "name": "Minecraft: настройка сервера",
+        "pages": [
+            {
+                "name": "Иконка сервера",
+                "path": "guides/minecraft/server-icon",
+                "description": "Как сделать и установить иконку server-icon.png для списка серверов."
+            },
+            {
+                "name": "Описание сервера (MOTD)",
+                "path": "guides/minecraft/motd",
+                "description": "Как изменить MOTD через server.properties, плагины или прокси, цвета и форматирование."
+            },
+            {
+                "name": "Защита спавна",
+                "path": "guides/minecraft/spawn-protection",
+                "description": "Как работает spawn-protection и как её отключить."
+            },
+            {
+                "name": "Игровые правила (gamerule)",
+                "path": "guides/minecraft/game-rules",
+                "description": "Команда gamerule: keepInventory, смена дня и ночи и другие правила Java и Bedrock."
+            },
+            {
+                "name": "Белый список (whitelist)",
+                "path": "guides/minecraft/configure-whitelist",
+                "description": "Как включить вайт-лист, добавить игроков и ограничить доступ к серверу."
+            },
+            {
+                "name": "Права на сервере",
+                "path": "guides/minecraft/server-permissions",
+                "description": "Как выдать OP и настроить права игроков через LuckPerms."
+            },
+            {
+                "name": "Ресурс-паки",
+                "path": "guides/minecraft/configure-resource-pack",
+                "description": "Как сделать, чтобы игрокам при входе предлагалось скачать текстуры сервера."
+            },
+            {
+                "name": "Загрузка и скачивание мира",
+                "path": "guides/minecraft/upload-download-world",
+                "description": "Как перенести мир из одиночной игры на сервер и скачать карту с сервера."
+            }
+        ]
+    },
+    {
+        "name": "Minecraft: моды и плагины",
+        "pages": [
+            {
+                "name": "Установка модов и плагинов",
+                "path": "guides/minecraft/install-mods-and-plugins",
+                "description": "Чем моды отличаются от плагинов, какое ядро выбрать и как установить их.",
+                "featured": true
+            },
+            {
+                "name": "Зависимости модов и плагинов",
+                "path": "guides/minecraft/mod-conflicts",
+                "description": "Сервер не запускается после установки модов или плагинов из-за зависимостей."
+            },
+            {
+                "name": "Установка Forge",
+                "path": "guides/install-forge",
+                "description": "Как установить Forge на сервер через установщик и настроить запуск для 1.17+."
+            },
+            {
+                "name": "Аддоны для Bedrock",
+                "path": "guides/install-bedrock-addons",
+                "description": "Как установить аддоны (.mcaddon, .mcpack) на сервер Minecraft Bedrock Edition."
+            },
+            {
+                "name": "Голосовой чат",
+                "path": "guides/minecraft/configure-voice-chat",
+                "description": "Как выбрать и настроить Plasmo Voice или Simple Voice Chat на сервере и прокси."
+            },
+            {
+                "name": "База данных для AuthMe",
+                "path": "guides/connect-db",
+                "description": "MySQL или SQLite: как подключить базу данных к плагину на примере AuthMe."
+            },
+            {
+                "name": "Поиск клиентских модов",
+                "path": "guides/scan-client-mods",
+                "description": "Как найти клиентские моды в папке mods с помощью ModsChecker."
+            }
+        ]
+    },
+    {
+        "name": "Minecraft: домены и сеть",
+        "pages": [
+            {
+                "name": "Настройка домена",
                 "path": "guides/minecraft/configure-domain",
-                "description": "Как привязать свой домен к Minecraft серверу через A и SRV записи."
+                "description": "Как привязать свой домен к серверу через A и SRV записи, в том числе в Cloudflare."
             },
             {
-                "name": "Бесплатный домен для Minecraft сервера",
+                "name": "Бесплатный домен",
                 "path": "guides/minecraft/get-free-domain",
-                "description": "Как получить бесплатный поддомен Superhub для Minecraft сервера и проверить DNS."
-            },
-            {
-                "name": "Настройка RCON",
-                "path": "guides/configure-rcon",
-                "description": "В этом гайде мы рассмотрим, как включить RCON на сервере, запущенном на нашем хостинге, а также настройку автоматической выдачи доната с помощью Trade MC."
-            },
-            {
-                "name": "Настройка TCPShield",
-                "path": "guides/configure-tcpshield",
-                "description": "Инструкция по настройке TCPShield - бесплатной защиты от DDoS."
+                "description": "Бесплатный поддомен mineserver.xyz или my-craft.cc вместо IP и порта."
             },
             {
                 "name": "Настройка BungeeCord",
                 "path": "guides/configure-proxy",
-                "description": "Инструкция по настройке сети серверов."
+                "description": "Как объединить серверы в сеть через прокси BungeeCord или FlameCord."
             },
             {
                 "name": "Настройка Velocity",
                 "path": "guides/minecraft/configure-velocity",
-                "description": "Объединяем нескольких игровых миров в единую сеть с помощью прокси-сервера Velocity."
+                "description": "Как объединить серверы в сеть через прокси Velocity и настроить forwarding."
             },
             {
-                "name": "Использование планировщика задач",
-                "path": "guides/hosting/use-crontab",
-                "description": "В панели предусмотрено создание задач, которые будут автоматически выполняться с определённой периодичностью. Вы можете настроить выполнение заранее заданных команд в определённое время."
+                "name": "RCON и выдача доната",
+                "path": "guides/configure-rcon",
+                "description": "Как включить RCON и настроить автоматическую выдачу доната через Trade MC."
+            }
+        ]
+    },
+    {
+        "name": "Minecraft: безопасность и производительность",
+        "pages": [
+            {
+                "name": "Безопасность сервера",
+                "path": "guides/secure-server",
+                "description": "Как защитить сервер Minecraft от взлома и гриферов и что делать, если взломали."
             },
             {
-                "name": "Использование SFTP",
-                "path": "guides/use-sftp",
-                "description": "Инструкция по использованию SFTP для доступа к файлам сервера."
+                "name": "Настройка TCPShield",
+                "path": "guides/configure-tcpshield",
+                "description": "Бесплатная защита от DDoS: регистрация в TCPShield и подключение сервера."
             },
             {
-                "name": "Добавить флаги запуска",
-                "path": "guides/add-flags",
-                "description": "Как добавить флаги запуска на хостинге"
-            },
-            {
-                "name": "Порты, доступные на сервере",
-                "path": "guides/hosting/container-ports",
-                "description": "Какие порты доступны на сервере, чем отличаются TCP и UDP и как добавить порт."
-            },
-            {
-                "name": "Как узнать ядро и версию сервера",
-                "path": "guides/minecraft/get-version",
-                "description": "Способы определить ядро и версию Minecraft сервера по логам, командам и онлайн-сервисам."
-            },
-            {
-                "name": "Управление игровыми правилами в Minecraft",
-                "path": "guides/minecraft/game-rules",
-                "description": "Как менять gamerule и основные игровые правила Minecraft Java и Bedrock."
-            },
-            {
-                "name": "Оптимизация Minecraft сервера",
-                "path": "guides/optimize-server",
-                "description": "Инструкция по оптимизация Minecraft сервера для комфортной игры на superhub.host."
-            },
-            {
-                "name": "Изменение команды запуска",
-                "path": "guides/hosting/change-startup-command",
-                "description": "Как найти команду запуска сервера и изменить параметры старта."
-            },
-            {
-                "name": "Загрузка собственной сборки",
-                "path": "guides/upload-build",
-                "description": "Инструкция по загрузке собственной сборки на superhub.host."
-            },
-            {
-                "name": "Какие бывают хостинги?",
-                "path": "guides/minecraft/hosting-services",
-                "description": "Описание возможных форматов хостинга для Minecraft: Java Edition"
-            },
-            {
-                "name": "Установка аддонов для Bedrock Edition",
-                "path": "guides/install-bedrock-addons",
-                "description": "Инструкция по установке аддонов на сервер с ядром для Minecraft Bedrock Edition на superhub.host."
-            },
-            {
-                "name": "Создание Terraria сервера",
-                "path": "guides/terraria/getting-started",
-                "description": "Инструкция по запуску Terraria сервера на хостинге."
-            },
-            {
-                "name": "Установка модов на Terraria сервер",
-                "path": "guides/terraria/install-modpack",
-                "description": "Объясняем, как установить модовую сборку на сервер Terraria."
-            },
-            {
-                "name": "Выдача доступа к панели сервера",
-                "path": "guides/share-server",
-                "description": "Инструкция по выдаче доступа к панели сервера на superhub.host."
-            },
-            {
-                "name": "Что делать при DDoS-атаке?",
+                "name": "Что делать при DDoS-атаке",
                 "path": "guides/minecraft/mitigate-ddos-attack",
-                "description": "Руководство по защите Minecraft сервера от бот-атак и сетевых угроз."
+                "description": "Как отличить бот-атаку от сетевой и какие инструменты помогут защитить сервер."
             },
             {
-                "name": "Как изменить почту или никнейм?",
-                "path": "guides/hosting/change-user-details",
-                "description": "Инструкция по изменению адреса электронной почты и никнейма на хостинге."
+                "name": "Оптимизация сервера",
+                "path": "guides/optimize-server",
+                "description": "Как уменьшить лаги: память, тяжёлые плагины, настройка конфигов и размер мира."
             },
             {
-                "name": "Проблемы с зависимостями плагинов и модов",
-                "path": "troubleshooting/minecraft-mod-conflicts",
-                "description": "Разбираемся с частыми проблемами зависимостей плагинов и модов"
+                "name": "Лаги и низкий TPS",
+                "path": "guides/minecraft/performance-issues",
+                "description": "Почему сервер лагает: нехватка CPU, RAM или диска, перегрузка локации."
+            }
+        ]
+    },
+    {
+        "name": "Terraria",
+        "pages": [
+            {
+                "name": "Создание сервера",
+                "path": "guides/terraria/getting-started",
+                "description": "Как создать сервер Terraria на хостинге и подключиться к нему."
             },
             {
-                "name": "Проблемы с производительностью Minecraft серверов",
-                "path": "troubleshooting/minecraft-performance",
-                "description": "Почему сервер лагает и низкий TPS, как понять, что серверу не хватает ресурсов или перегружена локация, и что с этим делать."
-            },
+                "name": "Установка модов",
+                "path": "guides/terraria/install-modpack",
+                "description": "Как установить моды на сервер Terraria через сборку tModLoader."
+            }
+        ]
+    },
+    {
+        "name": "VPS",
+        "pages": [
             {
-                "name": "Проблемы в панели управления игровыми серверами",
-                "path": "troubleshooting/pterodactyl-errors",
-                "description": "Что делать, если сервер не отвечает, почему файлы не загружаются и что делать при долгой установке сервера или ошибке бэкапа."
-            },
-            {
-                "name": "Настройка голосового чата",
-                "path": "guides/minecraft/configure-voice-chat",
-                "description": "Обучаемся корректной настройке и выбору плагина для голосового чата на вашем сервере Minecraft"
-            },
-            {
-                "name": "Удаление услуги с хостинга",
-                "path": "guides/hosting/delete-instance",
-                "description": "Гайд о том, как правильно удалять свою услугу с хостинга"
-            },
-            {
-                "name": "Как подключить базу данных к плагину AuthMe?",
-                "path": "guides/connect-db",
-                "description": "Инструкция по подключению плагина к базе данных, на примере AuthMe."
+                "name": "Подключение к VPS",
+                "path": "guides/virtual-servers/server-connection",
+                "description": "Как подключиться к Linux VPS по SSH или через PuTTY, сменить пароль и настроить ключи."
             }
         ]
     },
@@ -292,14 +332,14 @@
         "name": "FAQ",
         "pages": [
             {
-                "name": "Как получить бонус, реферальная программа",
+                "name": "Бонусы и реферальная программа",
                 "path": "faq/bonus",
-                "description": "Как получить бонус на хостинге и механика реферальной программы."
+                "description": "Как получить бонус на баланс за отзыв и как работает реферальная программа."
             },
             {
-                "name": "Часто встречающиеся ошибки в панели хостинга",
+                "name": "Частые ошибки в консоли",
                 "path": "faq/panel",
-                "description": "Часто встречающиеся ошибки panel.superhub.host."
+                "description": "Ошибки мира и чанков, плагинов, Citizens и нехватки памяти в консоли сервера."
             }
         ]
     },
@@ -309,27 +349,27 @@
             {
                 "name": "Оферта",
                 "path": "oferta",
-                "description": "Пользовательское соглашение нашего хостинга."
+                "description": "Общие условия использования услуг хостинга, возврат средств, права и обязанности."
             },
             {
-                "name": "Политика Конфиденциальности",
+                "name": "Политика конфиденциальности",
                 "path": "privacy",
-                "description": "Порядок обработки данных пользователей на нашем хостинге."
+                "description": "Какие персональные данные обрабатывает хостинг, зачем и как они хранятся."
             },
             {
                 "name": "Bug Bounty",
                 "path": "bug-bounty",
-                "description": "Информация о том, как вы можете сообщить об ошибках на нашем хостинге и получить вознаграждение за это."
+                "description": "Как сообщить об ошибке или уязвимости хостинга и получить вознаграждение."
             },
             {
-                "name": "Заморозка серверов",
+                "name": "Заморозка и блокировка",
                 "path": "docs/server-suspension",
-                "description": "Механика заморозки серверов и их автоматической блокировки в случае неуплаты."
+                "description": "Как заморозить сервер на время и когда он блокируется за неуплату."
             },
             {
                 "name": "Superhub Beam",
                 "path": "docs/superhub-beam",
-                "description": "Описание процесса подключения и особенностей Superhub Beam."
+                "description": "Геораспределённый прокси для подключения игроков из разных стран."
             }
         ]
     },
@@ -339,37 +379,37 @@
             {
                 "name": "QNA 2025",
                 "path": "blog/qna-2025",
-                "description": "Текстовая расшифровка стрима с ответами на вопросы администрации superhub.host."
+                "description": "Расшифровка стрима 2025 года: ответы администрации на вопросы о хостинге."
             },
             {
                 "name": "QNA 2024",
                 "path": "blog/qna-2024",
-                "description": "Текстовая расшифровка сессии вопрос-ответ от администрации superhub.host."
+                "description": "Расшифровка сессии вопросов и ответов с администрацией хостинга в 2024 году."
             },
             {
-                "name": "Выбор оптимальной конфигурации",
+                "name": "Выбор конфигурации сервера",
                 "path": "blog/server-resources",
-                "description": "Статья про то, сколько ресурсов следует приобретать на хостинге для нормальной работы Minecraft сервера."
+                "description": "Сколько процессора, памяти и диска нужно серверу Minecraft."
             },
             {
-                "name": "Архитектура хостинга superhub",
+                "name": "Архитектура хостинга",
                 "path": "blog/hosting-arc-1",
-                "description": "Статья, рассказывающая, какая архитектура и сервисы используется на нашем хостинге."
+                "description": "Какие сервисы и решения используются в инфраструктуре Superhub."
             },
             {
-                "name": "Миграция нод хостинга 17.05.22",
+                "name": "Миграция нод 17.05.22",
                 "path": "blog/node-migration-170522",
-                "description": "Описание процедуры миграции пользовательских серверов на хостинге. Дата миграции - 17.05.22."
+                "description": "Как проходил перенос серверов клиентов на новые ноды в мае 2022 года."
             },
             {
-                "name": "Топ-8 лучших хостингов для Minecraft: выбор для вашего сервера",
+                "name": "Топ-8 хостингов Minecraft",
                 "path": "blog/hosting-comparison",
-                "description": "Обзор лучших хостингов для запуска игровых серверов Minecraft от команды Superhub."
+                "description": "Рейтинг и сравнение лучших хостингов для серверов Minecraft."
             },
             {
-                "name": "VPS для Minecraft: почему это лучший способ запустить сервер",
+                "name": "VPS для Minecraft",
                 "path": "blog/vps-hosting",
-                "description": "Запустите сервер Minecraft на VPS от Superhub: высокая производительность, гибкость, DDoS-защита и удобные тарифы. Надёжный хостинг для любого проекта."
+                "description": "Почему VPS подходит для сервера Minecraft и как выбрать и заказать VPS."
             }
         ]
     },
@@ -377,59 +417,59 @@
         "name": "LSR отчеты",
         "pages": [
             {
-                "name": "Недоступность сервисов хостинга 27.06.20",
+                "name": "Недоступность сервисов 27.06.20",
                 "path": "lsr/27-06-20",
-                "description": "Разбор инцидента, связанный с недоступностью сервисов хостинга 27.06.20."
+                "description": "Разбор инцидента: недоступность сервисов хостинга 27.06.20."
             },
             {
-                "name": "Недоступность сайтов хостинга 05.07.20-07.07.20",
+                "name": "Недоступность сайтов 05–07.07.20",
                 "path": "lsr/05-07-20",
-                "description": "Разбор инцидента, связанный с недоступностью сайтов хостинга 05.07.20 - 07.07.20."
+                "description": "Разбор инцидента: недоступность сайтов хостинга 05.07.20–07.07.20."
             },
             {
-                "name": "Кривой релиз панели хостинга 07.09.20",
+                "name": "Кривой релиз панели 07.09.20",
                 "path": "lsr/07-09-20",
-                "description": "Разбор инцидента, связанный с кривым релизом панели хостинга 07.09.20."
+                "description": "Разбор инцидента: неудачный релиз панели хостинга 07.09.20."
             },
             {
-                "name": "Недоступность ноды solid.mcs 08.09.20",
+                "name": "Недоступность solid.mcs 08.09.20",
                 "path": "lsr/08-09-20",
-                "description": "Разбор инцидента, связанный с недоступностью ноды solid.mcs 08.09.20."
+                "description": "Разбор инцидента: недоступность ноды solid.mcs 08.09.20."
             },
             {
                 "name": "Недоступность всех сайтов 03.10.20",
                 "path": "lsr/03-10-20",
-                "description": "Разбор инцидента, связанный с недоступностью всех сайтов хостинга 03.10.20."
+                "description": "Разбор инцидента: недоступность всех сайтов хостинга 03.10.20."
+            },
+            {
+                "name": "Недоступность сервисов 31.01.21",
+                "path": "lsr/31-01-21",
+                "description": "Разбор инцидента: недоступность сервисов хостинга 31.01.21."
             },
             {
                 "name": "Недоступность игровых нод 25.02.21",
                 "path": "lsr/25-02-21",
-                "description": "Разбор инцидента, связанный с недоступностью игровых нод 25.02.21."
+                "description": "Разбор инцидента: недоступность игровых нод 25.02.21."
             },
             {
                 "name": "Outage .mcs zone 18.04.21",
                 "path": "lsr/18-04-21",
-                "description": "Разбор инцидента, связанный с outage .mcs zone 18.04.21."
+                "description": "Разбор инцидента: outage зоны .mcs 18.04.21."
             },
             {
-                "name": "Недоступность сервисов хостинга 31.01.21",
-                "path": "lsr/31-01-21",
-                "description": "Разбор инцидента, связанный с недоступностью сервисов хостинга 31.01.21."
-            },
-            {
-                "name": "Взлом сервера glee.c4b",
+                "name": "Взлом сервера glee.c4b 13.09.23",
                 "path": "lsr/13-09-23",
-                "description": "Разбор инцидента, связанный с перебоями в работе нод локации MSK-2 11-13 сентября 2023 года."
+                "description": "Разбор инцидента: взлом glee.c4b и перебои нод MSK-2 11–13.09.23."
             },
             {
-                "name": "Деградация сервисов хостинга 08.02.24",
+                "name": "Деградация сервисов 08.02.24",
                 "path": "lsr/08-02-24",
-                "description": "Разбор инцидента, связанный с увеличением latency сервисов хостинга 08.02.24."
+                "description": "Разбор инцидента: рост задержек сервисов хостинга 08.02.24."
             },
             {
-                "name": "Недоступность базы данных хостинга 08.09.24",
+                "name": "Недоступность БД 08.09.24",
                 "path": "lsr/08-09-24",
-                "description": "Разбор инцидента, связанный недоступностью базы данных хостинга 08.09.24."
+                "description": "Разбор инцидента: недоступность кластера баз данных хостинга 08.09.24."
             }
         ]
     }

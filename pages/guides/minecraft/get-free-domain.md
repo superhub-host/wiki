@@ -1,6 +1,6 @@
 ---
 title: Бесплатный домен для Minecraft сервера
-description: Как получить бесплатный поддомен для Minecraft сервера на Superhub.
+description: 'Как получить бесплатный домен для сервера Minecraft на Superhub: поддомен в зонах mineserver.xyz и my-craft.cc вместо IP и порта, для Java и Bedrock.'
 ---
 
 Данная услуга помогает дать игрокам понятный адрес сервера без покупки собственного домена. Вместо IP с портом можно использовать поддомен в одной из зон Superhub: `*.mineserver.xyz` или `*.my-craft.cc`. Если же тебе нужен полностью свой домен вроде `example.com`, купи его у регистратора и настрой по [этой инструкции](/guides/minecraft/configure-domain).

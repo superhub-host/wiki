@@ -1,6 +1,6 @@
 ---
 title: Управление игровыми правилами в Minecraft
-description: Как менять game rules, gamerule и основные игровые правила Minecraft Java и Bedrock.
+description: 'Как менять игровые правила Minecraft командой gamerule: keepInventory, doDaylightCycle, fallDamage и другие правила для Java и Bedrock Edition.'
 ---
 
 Игровые правила Minecraft, или «game rules», управляют поведением мира: выпадением предметов, сменой дня и ночи, уроном от падения, сохранением инвентаря после смерти и другими механиками. Их меняют командой `gamerule`.

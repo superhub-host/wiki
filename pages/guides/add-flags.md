@@ -1,6 +1,6 @@
 ---
 title: Добавить флаги запуска
-description: Как добавить флаги запуска на хостинге
+description: 'Как добавить флаги и аргументы JVM для сервера Minecraft: Java Edition на хостинге Superhub через переменную «Аргументы JVM» во вкладке «Запуск».'
 ---
 
 ## Аргументы JVM для Minecraft Java Edition
